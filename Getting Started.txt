@@ -1,0 +1,19 @@
+
+1- Clone the repository
+2- Open your terminal and go to the repository : cd path/to/repository
+3- Install Composer dependencies : composer install 
+4- Install Npm dependencies : npm install 
+5- Create an empty UT8-bin database.
+6- Modify the .env file : put the name of your database and the port it is using
+6- Migrate : php artisan migrate
+
+
+
+--- Categories : -----
+
+insert into categories(name) values('Gants');
+insert into categories(name) values('Masques');
+insert into categories(name) values('Medicaments');
+insert into categories(name) values('Materiel de diagnostique');
+insert into categories(name) values('Urgence');
+insert into categories(name) values('Autre');
